@@ -86,3 +86,11 @@ a{
 .contacts__img img{
     margin-right: 11px;
 }
+
+.footer__main__menu a{
+    transition: 0.3s ease;
+}
+
+.footer__main__menu a:hover{
+    color:#B89F61;
+}
