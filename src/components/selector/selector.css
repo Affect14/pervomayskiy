@@ -1,0 +1,59 @@
+.selector__buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 63px;
+}
+
+.selector__button{
+    padding: 20px 32px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B89F61;
+    background-color: #FAF5F1;
+}
+
+.selector__button:hover{
+    cursor: pointer;
+    outline: 1px solid #B89F61;
+    outline-offset: -1px;
+}
+
+.selector__items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin: 0 10%;
+}
+
+.card{
+    width: 276px;
+    height: 430px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.card:hover{
+    background-image: url('./images/cardBackground.png');
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+}
+
+.activeButton{
+    color: white;
+    background-color: #B89F61;
+}
+
+.activeButton::before{
+    display: block;
+    content: url('./images/check.svg');
+    float: left;
+    margin-right: 11px;
+    margin-top: 1px;
+}

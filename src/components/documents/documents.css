@@ -1,0 +1,91 @@
+.documents{
+    display: flex;
+    background-image: url(./images/grapesBackground.png) ;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 103px;
+}
+
+.documents__title{
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 63px;
+}
+
+.documents__items{
+    display: flex;
+    margin-top: 40px;
+}
+
+.documents__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 268px;
+    background-color: rgba(255, 255, 255, 0.6);;
+    transition: 0.3s ease;
+}
+
+/* .documents__item:hover{
+    background-color: white;
+} */
+
+.documents__item:nth-child(2){
+    margin-left:30px;
+    margin-right: 30px;
+}
+
+.documents__item__title{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;    
+    margin-top: 54px;
+    margin-bottom:30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.documents__item button{
+    display: flex;
+    width: 183px;
+    height: 62px;
+    margin-bottom: 54px;
+    color: #B89F61;
+    border: 1px solid #B89F61;
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.3s ease;
+}
+
+
+.documents__item button::after{
+    content: url('./images/arrowbox.svg');
+    display: block;
+    float:right;
+    margin-top:2px;
+    margin-left: 14px;
+    
+}
+
+.documents__item button:hover::after{
+    content: url('./images/arrowboxWhite.svg');
+    cursor: pointer;
+    background-color: #B89F61;
+    color: white;
+    
+}
+
+.documents__item button:hover{
+    cursor: pointer;
+    background-color: #B89F61;
+    color: white;
+}
+
+
+.documents__item button img{
+    margin-left:14px;
+}

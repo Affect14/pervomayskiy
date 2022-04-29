@@ -1,0 +1,27 @@
+.contactsPage__block{
+    display: flex;
+    padding: 118px 165px 143px 165px;
+    justify-content: center;
+} 
+
+.contactsPage__block__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.contactsPage__block__column:nth-child(2){
+    margin-left: 80px;
+}
+
+.contactsPage__column__item{
+    display: flex;
+    align-items: center;
+}
+
+.contactsPage__column__item img{
+    margin-right: 19.5px;
+}

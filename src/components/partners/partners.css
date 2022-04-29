@@ -1,0 +1,19 @@
+.partners{
+    display: flex;
+    background-color: #FAF5F1;
+}
+
+.partners__text{
+    margin-top: 48px;
+    margin-bottom: 54px;
+    margin-left: 165px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+}
+
+.partners__image{
+    margin-top: 62px;
+    margin-bottom: 64px;
+    margin-left: 88px;
+}

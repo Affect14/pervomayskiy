@@ -1,0 +1,195 @@
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 98px 165px;
+}
+
+@media (max-width: 1199px) {
+    .aboutus{
+       padding: 98px 60px;
+    }
+}
+
+.aboutus__factoryFounded{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutus__factoryFounded__column:nth-child(even){
+    margin-left: 65px;
+}
+
+.aboutus__factoryFounded__column__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.aboutus__factoryFounded__column__map{
+    margin-top:42px;
+}
+
+.aboutus__location{
+    margin: auto;
+    margin-top: 61px;
+}
+
+.aboutus__location__text{
+    width: 600px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.aboutus__factoryInfo{
+    display:flex;
+    margin-top:94px;
+}
+
+.aboutus__factoryInfo__column{
+    display: flex;
+    margin: auto;
+    max-width: 570px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutus__factoryInfo__column:nth-child(odd){
+    margin-right: 60px;
+}
+
+.aboutus__factoryInfo__column__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.aboutus__factoryInfo__column__text{
+    margin-top:25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.aboutus__factoryImages{
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+}
+
+.aboutus__factoryImages img:nth-child(even){
+    margin-left:30px;
+}
+
+.aboutus__alcoholInfo{
+    margin:auto;
+    display: flex;
+    margin-top:132px;
+}
+
+.aboutus__alcoholInfo__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutus__alcoholInfo__column__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    max-width: 605px;
+    margin-right: 60px;
+}
+
+.aboutus__barrels{
+    margin:auto;
+    display: flex;
+    margin-top:44px;
+}
+
+.aboutus__barrels__column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus__barrels__column img:nth-child(odd){
+    margin-right: 60px;
+}
+
+.aboutus__barrels__column__text{
+    max-width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.aboutus__wild{
+
+    margin-top: 118px;
+    width: 884px;
+}
+
+.aboutus__wild__text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.aboutus__gallery{
+    margin:auto;
+    display: flex;
+    margin-top:27px;
+    margin-bottom:96px;
+}
+
+.aboutus__gallery__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutus__gallery__column img:nth-child(even){
+    margin-top: 37px;
+}
+
+.aboutus__gallery__column:nth-child(odd){
+    margin-right:30px;
+}
+
+.aboutus__gallery__column__text{
+    margin:auto;
+    max-width: 635px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.aboutus__mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus__mission__title{
+    display: flex;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 63px;
+    color: #B89F61;
+}
+
+.aboutus__mission__title img{
+    margin-left:24px;
+    margin-right: 24px;
+}
+
+.aboutus__mission__text{
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+}
+

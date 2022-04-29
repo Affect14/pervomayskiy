@@ -1,0 +1,72 @@
+.about{
+    margin: 89px 11.5% 94px;
+}
+
+@media (max-width: 1199px) {
+    .about{
+        margin-left:10px;
+        margin-right: 10px;
+    }
+}
+
+.description__about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 66px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.title__about{
+    display: flex;
+    align-content: center;
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 63px;
+}
+
+.title__dash{
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    margin-left: 24px;
+    
+}
+
+.title__text{
+    display: flex;
+    
+}
+
+.about__button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 79px;
+}
+
+.about__button button{
+    width: 257px;
+    height: 62px;
+    border: 1px solid #000000;
+}
+
+.about__technologies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about__factory{
+    align-content: center;
+}
