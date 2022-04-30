@@ -1,11 +1,13 @@
 import React from 'react'
 import './bestProducts.css'
 import ProductsItem from '../products-item/produtsItem'
+import { useSelector } from 'react-redux'
 
 import dashSvg from './images/Dash.svg'
 
-export default function BestProducts(props){
-    const bestProductsArray = props.products.filter(item => item.id === 5 || item.id === 6 || item.id === 7 || item.id === 8 )
+export default function BestProducts(){
+    var images = useSelector(state => state)
+    images = images.filter(item => item.id === 5 || item.id === 6 || item.id === 7 || item.id === 8 )
     return (
         <div className='best_products'>
             <div className='products__title'>
@@ -18,7 +20,7 @@ export default function BestProducts(props){
             </div>
             <div className='items'>
                 { 
-                    bestProductsArray.map(item =>  {
+                    images.map(item =>  {
                     return (
                     <div className='card' key={item.id}>
                         <ProductsItem item={item} />

@@ -1,13 +1,16 @@
 import React from 'react'
 import './selector.css'
 import ProductsItem from '../products-item/produtsItem'
+import { useSelector } from 'react-redux'
 
-export default function Selector(props){
-    var [filteredArray, setFilteredArray] = React.useState(props.products)
-
+export default function Selector(){
+    var images = useSelector(state => state)
+    
+    var [filteredArray, setFilteredArray] = React.useState(images)
+    
     function showAll(){
         setFilteredArray(
-            filteredArray = props.products
+            filteredArray = images
         )
        document.getElementById('btn1').classList.add('activeButton')
        document.getElementById('btn2').classList.remove('activeButton')
@@ -18,7 +21,7 @@ export default function Selector(props){
 
     function showVinvod(){
         setFilteredArray(
-            filteredArray = props.products.filter(item => item.kind === 'vinvod')
+            filteredArray = images.filter(item => item.kind === 'vinvod')
         )
         document.getElementById('btn1').classList.remove('activeButton')
         document.getElementById('btn2').classList.add('activeButton')
@@ -29,7 +32,7 @@ export default function Selector(props){
 
     function showOrdinkon(){
         setFilteredArray(
-            filteredArray = props.products.filter(item => item.kind === 'ordinkon')
+            filteredArray = images.filter(item => item.kind === 'ordinkon')
         )
         document.getElementById('btn1').classList.remove('activeButton')
         document.getElementById('btn2').classList.remove('activeButton')
@@ -40,7 +43,7 @@ export default function Selector(props){
 
     function showMarochniy(){
         setFilteredArray(
-            filteredArray = props.products.filter(item => item.kind === 'marochniy')
+            filteredArray = images.filter(item => item.kind === 'marochniy')
         )
         document.getElementById('btn1').classList.remove('activeButton')
         document.getElementById('btn2').classList.remove('activeButton')
@@ -51,7 +54,7 @@ export default function Selector(props){
 
     function showBrendi(){
         setFilteredArray(
-            filteredArray = props.products.filter(item => item.kind === 'brendi')
+            filteredArray = images.filter(item => item.kind === 'brendi')
         )
         document.getElementById('btn1').classList.remove('activeButton')
         document.getElementById('btn2').classList.remove('activeButton')
