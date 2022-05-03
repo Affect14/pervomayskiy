@@ -4,7 +4,7 @@ import ProductsItem from '../products-item/produtsItem'
 import { useSelector } from 'react-redux'
 
 export default function Selector(){
-    var images = useSelector(state => state)
+    var images = useSelector(state => state.alcImages)
     
     var [filteredArray, setFilteredArray] = React.useState(images)
     

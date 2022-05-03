@@ -1,0 +1,17 @@
+.galleryItem{
+    background-color: black;
+    position: relative;
+}
+
+.galleryItem img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.galleryItem:hover::before{
+    content: url('./images/Zoom.png');
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}

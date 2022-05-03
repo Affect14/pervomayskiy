@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux'
 import dashSvg from './images/Dash.svg'
 
 export default function BestProducts(){
-    var images = useSelector(state => state)
+    var images = useSelector(state => state.alcImages)
     images = images.filter(item => item.id === 5 || item.id === 6 || item.id === 7 || item.id === 8 )
     return (
         <div className='best_products'>

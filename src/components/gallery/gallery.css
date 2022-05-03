@@ -11,20 +11,7 @@
     grid-template-rows: repeat(4,1fr);
 }
 
-.galleryItem{
-    background-color: black;
-    position: relative;
-}
-
-.galleryItem img:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-.galleryItem:hover::before{
-    content: url('./images/Zoom.png');
+.showFull{
+    display: none;
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
 }
