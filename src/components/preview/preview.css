@@ -2,6 +2,9 @@
     background: linear-gradient(180deg, rgb(10, 10, 10) -40%, rgba(10, 10, 10, 0) 100%);
 } */
 
+.maxHeight{
+    height:100vh;
+}
 
 .title{
     display:flex;

@@ -10,18 +10,31 @@ import alc7 from '../assets/products-items/images/alc7.png'
 import alc8 from '../assets/products-items/images/alc8.png'
 import alc9 from '../assets/products-items/images/alc9.png'
 
-import img1Png from '../assets/gallery-items/1.png'
-import img2Png from '../assets/gallery-items/2.png'
-import img3Png from '../assets/gallery-items/3.png'
-import img4Png from '../assets/gallery-items/4.png'
-import img5Png from '../assets/gallery-items/5.png'
-import img6Png from '../assets/gallery-items/6.png'
-import img7Png from '../assets/gallery-items/7.png'
-import img8Png from '../assets/gallery-items/8.png'
-import img9Png from '../assets/gallery-items/9.png'
-import img10Png from '../assets/gallery-items/10.png'
-import img11Png from '../assets/gallery-items/11.png'
-import img12Png from '../assets/gallery-items/12.png'
+import img1Png from '../assets/gallery-items/scaled/1.png'
+import img2Png from '../assets/gallery-items/scaled/2.png'
+import img3Png from '../assets/gallery-items/scaled/3.png'
+import img4Png from '../assets/gallery-items/scaled/4.png'
+import img5Png from '../assets/gallery-items/scaled/5.png'
+import img6Png from '../assets/gallery-items/scaled/6.png'
+import img7Png from '../assets/gallery-items/scaled/7.png'
+import img8Png from '../assets/gallery-items/scaled/8.png'
+import img9Png from '../assets/gallery-items/scaled/9.png'
+import img10Png from '../assets/gallery-items/scaled/10.png'
+import img11Png from '../assets/gallery-items/scaled/11.png'
+import img12Png from '../assets/gallery-items/scaled/12.png'
+
+import img1PngNoScale from '../assets/gallery-items/noscale/img1noscale.png'
+import img2PngNoScale from '../assets/gallery-items/noscale/img2noscale.png'
+import img3PngNoScale from '../assets/gallery-items/noscale/img3noscale.png'
+import img4PngNoScale from '../assets/gallery-items/noscale/img4noscale.png'
+import img5PngNoScale from '../assets/gallery-items/noscale/img5noscale.png'
+import img6PngNoScale from '../assets/gallery-items/noscale/img6noscale.png'
+import img7PngNoScale from '../assets/gallery-items/noscale/img7noscale.png'
+import img8PngNoScale from '../assets/gallery-items/noscale/img8noscale.png'
+import img9PngNoScale from '../assets/gallery-items/noscale/img9noscale.png'
+import img10PngNoScale from '../assets/gallery-items/noscale/img10noscale.png'
+import img11PngNoScale from '../assets/gallery-items/noscale/img11noscale.png'
+import img12PngNoScale from '../assets/gallery-items/noscale/img12noscale.png'
 
 const defaultState = {
   alcImages :[
@@ -37,18 +50,18 @@ const defaultState = {
   ],
   
   galleryImages :[
-    { id: 0, img: img1Png },
-    { id: 1, img: img2Png },
-    { id: 2, img: img3Png },
-    { id: 3, img: img4Png },
-    { id: 4, img: img5Png },
-    { id: 5, img: img6Png },
-    { id: 6, img: img7Png },
-    { id: 7, img: img8Png },
-    { id: 8, img: img9Png },
-    { id: 9, img: img10Png },
-    { id: 10, img: img11Png },
-    { id: 11, img: img12Png },
+    { id: 0, img: img1Png, imgNoScale: img1PngNoScale },
+    { id: 1, img: img2Png, imgNoScale: img2PngNoScale },
+    { id: 2, img: img3Png, imgNoScale: img3PngNoScale },
+    { id: 3, img: img4Png, imgNoScale: img4PngNoScale },
+    { id: 4, img: img5Png, imgNoScale: img5PngNoScale },
+    { id: 5, img: img6Png, imgNoScale: img6PngNoScale },
+    { id: 6, img: img7Png, imgNoScale: img7PngNoScale },
+    { id: 7, img: img8Png, imgNoScale: img8PngNoScale },
+    { id: 8, img: img9Png, imgNoScale: img9PngNoScale },
+    { id: 9, img: img10Png, imgNoScale: img10PngNoScale },
+    { id: 10, img: img11Png, imgNoScale: img11PngNoScale },
+    { id: 11, img: img12Png, imgNoScale: img12PngNoScale },
   ]
 }
 
