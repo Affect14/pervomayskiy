@@ -1,5 +1,6 @@
 import { Routes, Route, Link} from 'react-router-dom'
 import { Fragment } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import Preview from './components/preview/preview'
 import About from './components/about/about'
 import BestProducts from './components/best-products/bestProducts'
@@ -14,6 +15,7 @@ import Documents from './components/documents/documents'
 import Gallery from './components/gallery/gallery'
 import Vacancies from './components/vacancies/vacancies'
 import Contacts from './components/contacts/contacts'
+import BestProductsMobile from './components/best-products-mobile/bestProductsMobile'
 
 import mainPng from './assets/preview-component/images/main.png'
 import contactsPng from './assets/preview-component/images/contacts.png'
@@ -27,6 +29,17 @@ import vacanciesPng from './assets/preview-component/images/vacancies.png'
 
 
 function App() {
+  const dispatch = useDispatch()
+  window.addEventListener('resize', checkSize)
+  function checkSize(){
+    if (window.innerWidth > 767){
+      dispatch({type:"SET_DESKTOP"})
+    } else {
+      dispatch({type:"SET_MOBILE"})
+    }
+  }
+  checkSize()
+
   const Content = {
     main : {content:(
       <Fragment>
@@ -105,8 +118,8 @@ function App() {
        <Route path='/' element={<div className='mainPage'>
                                   <Preview content={Content.main}/>
                                   <About />
-                                  <BestProducts/>
-                                  <Advantages />
+                                  { useSelector(state => state.isMobile) ? <BestProductsMobile/> : <BestProducts/> }
+                                  { useSelector(state => state.isMobile) ? <></> : <Advantages/>}
                                   <Footer />
                                 </div>}/>
         <Route path='/about' element={<div className='aboutPage'>

@@ -76,3 +76,25 @@ button:hover{
     background: #A99259;
     cursor: pointer;
 }
+
+@media(max-width: 767px){
+    button{
+        margin-left:6px;
+        margin-right:6px;
+    }
+    .specialization{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .name{
+        font-size: 34px;
+        line-height: 46px;
+    }
+    .founded{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 54px;
+    }
+
+}

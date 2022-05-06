@@ -1,0 +1,81 @@
+.items{
+}
+
+.swiper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.swiper-wrapper{
+}
+
+.swiper-slide{
+   margin:auto;
+}
+
+.swiper-pagination{
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.swiper-pagination-bullet {
+    content: url('./images/roundNonActive.svg');
+    margin: 5px;
+}
+.swiper-pagination-bullet-active{
+    content: url('./images/roundActive.svg');
+}
+
+.swiper-pagination{
+    order:2;
+    align-self: center;
+}
+
+.Mobile_products__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Mobile_products__title__top{
+    font-weight: 500;
+    font-size: 20px;
+    color: #B89F61;
+    margin-bottom: 8px;
+}
+
+.Mobile_products__title__text{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+    
+}
+
+.Mobile_products__title__text img{
+    width: 50px;
+    height: 2px;
+    align-self: center;
+    margin-top:12px;
+    margin-bottom: 32px;
+}
+
+.bestProductsMobile{
+    display: flex;
+    flex-direction: column;
+    background-image: url('./images/Grapes.png');
+    padding-top: 32px;
+}
+
+@media (max-width: 767px){
+    .card{
+        margin-left: 20%;
+        width:60%;
+        min-width:250px;
+    }
+}

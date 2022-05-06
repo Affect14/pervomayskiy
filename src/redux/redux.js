@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 
+
 import alc1 from '../assets/products-items/images/alc1.png'
 import alc2 from '../assets/products-items/images/alc2.png'
 import alc3 from '../assets/products-items/images/alc3.png'
@@ -36,6 +37,8 @@ import img10PngNoScale from '../assets/gallery-items/noscale/img10noscale.png'
 import img11PngNoScale from '../assets/gallery-items/noscale/img11noscale.png'
 import img12PngNoScale from '../assets/gallery-items/noscale/img12noscale.png'
 
+
+
 const defaultState = {
   alcImages :[
     { id: 0, img:alc1, description:'Бренди «Крымский статус» молодой', cap:'0,25 л', kind:'brendi' },
@@ -62,12 +65,20 @@ const defaultState = {
     { id: 9, img: img10Png, imgNoScale: img10PngNoScale },
     { id: 10, img: img11Png, imgNoScale: img11PngNoScale },
     { id: 11, img: img12Png, imgNoScale: img12PngNoScale },
-  ]
+  ],
+
+  isMobile: false
 }
 
   const reducer = (state = defaultState, action) => {
-              return state
-      }
+    switch (action.type){
+      case "SET_MOBILE":
+        return {...state, isMobile: true}
+      case "SET_DESKTOP":
+        return {...state, isMobile: false}
+      default: return state
+    }         
+  }
   
 const store = configureStore({reducer: reducer})
 

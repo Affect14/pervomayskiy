@@ -8,7 +8,7 @@
 .slider{
     min-width: 720px;
     max-width: 720px;
-    height: 637px;
+    min-height: 637px;
     overflow: hidden;
 }
 
@@ -77,3 +77,10 @@
     margin-bottom:51px;
 }
 
+/* @media(max-width:1200px){
+    .advantages{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 250px;
+    }
+} */

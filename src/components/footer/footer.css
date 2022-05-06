@@ -94,3 +94,40 @@ a{
 .footer__main__menu a:hover{
     color:#B89F61;
 }
+
+@media (max-width: 767px){
+    .attention{       
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .footer__main__menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin:0 15px;
+        padding: 0;
+        padding-top: 24px;
+        padding-bottom: 4px;
+    }
+    .footer__main__menu a{
+        margin-bottom:20px;
+        text-align: center;
+    }
+    .footer__main__contacts{
+        display:flex;
+        flex-direction: column;
+        margin:0 27px;
+        align-self: center;
+    }
+    .contacts__block{
+        align-items: start;
+        justify-content: start;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 146.2%;
+        margin-top: 32px;
+        max-width: 400px;
+    }
+}

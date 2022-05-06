@@ -1,12 +1,5 @@
 .about{
-    margin: 89px 11.5% 94px;
-}
-
-@media (max-width: 1199px) {
-    .about{
-        margin-left:10px;
-        margin-right: 10px;
-    }
+    padding: 89px 11.5% 94px;
 }
 
 .description__about{
@@ -69,4 +62,81 @@
 
 .about__factory{
     align-content: center;
+}
+
+@media(max-width:1200px)
+{
+    .about{
+        padding: 40px 15px ;
+        /* overflow: hidden; */
+    }
+    
+    .description__about{
+        display:flex;
+        flex-direction: column;
+    }
+    .about__factory{
+        text-align: center;
+        margin-bottom: 27px;
+    }
+    .title__about{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .map{
+        margin-bottom:26px;
+    }
+
+    .map img{
+        width: 345px;
+    }
+
+    .about__technologies{
+        font-size: 15px;
+        line-height: 160%;
+        text-align: center;
+        margin-bottom: 26px;
+    }
+
+    .alcohol{
+        order: 4;
+        margin:auto;
+    }
+    .alcohol img{
+        width: 100%;
+    }
+
+    .about__button{
+        width:100%;
+        margin-top:32px;
+        margin-bottom: 0;
+    }
+
+    .about__button button{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+   
+    .alcohol{
+        order: 4;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .alcohol img{
+        width: 100%;
+    }
+
+    .about__button{
+        width:100%;
+        margin-top:32px;
+        margin-bottom: 0;
+    }
 }

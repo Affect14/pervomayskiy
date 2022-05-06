@@ -11,7 +11,7 @@
     grid-template-rows: repeat(4,1fr);
 }
 
-#showFull{
+#galleryZoom{
     display: none;
     position: fixed;
     z-index: 100;
@@ -34,12 +34,45 @@
 .close_img{
     position: absolute;
     right: 0;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: -60px;
+    margin-right: -60px;
     opacity: 0.5;
 }
 
 .close_img:hover{
     cursor: pointer;
     opacity: 1;
+}
+
+.buttonRight_img{
+    position: absolute;
+    left: -100px;
+    top:50%;
+    transform: translate(0,-50%);
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.buttonRight_img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+.buttonLeft_img{
+    position: absolute;
+    right: -100px;
+    top:50%;
+    transform: translate(0,-50%);
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.buttonLeft_img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.turn{
+    transform: scale(-1, 1) 
 }

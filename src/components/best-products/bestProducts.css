@@ -95,3 +95,10 @@
 .card .item img{
     height: 250px;
 }
+
+@media (max-width:1200px){
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
