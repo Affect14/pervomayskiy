@@ -13,6 +13,7 @@
     height: 60px;
     border-radius: 0px 0px 0px 20px;
     background-color: #B89F61;
+    z-index: 100;
 }
 
 .popup img{
@@ -23,4 +24,53 @@
 
 .mobileLogoSvg{
     margin-top: 26px;
+}
+
+.popup__menu{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    background: #B89F61;
+    color: white;
+    height: 100vh;
+    padding: 0px 24px;
+}
+
+.popup__menu img {
+    fill: white;
+}
+
+.popup__menu__numbers{
+    padding: 24px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 14px;
+}
+
+.popup__menu__number:nth-child(1){
+    margin-bottom: 16px;
+}
+
+.popup__menu__urls{
+    display: flex;
+    flex-direction: column;
+}
+
+.popup__menu__urls a{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.popup__menu__contacts{
+    display: flex;
+    margin-top:auto;
+    flex-direction: column;
+    bottom:0;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    margin-bottom:24px;
+}
+
+.popup__menu__contact{
+    margin-top:25px;
 }
