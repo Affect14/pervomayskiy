@@ -1,0 +1,125 @@
+.aboutusMobile{
+    display:flex;
+    flex-direction: column;
+    padding-top:32px;
+    padding-bottom:26px;
+}
+
+.aboutusMobile__founded{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutusMobile__founded__title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom:26px;
+}
+.aboutusMobile__founded__title img{
+    width: 50px;
+    height: 2px;
+}
+.aboutusMobile__founded__images img{
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.aboutusMobile__founded__text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 0 15px;
+}
+
+.aboutusMobile__factory__images{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutusMobile__factory__images img{
+    margin-bottom: 10px;
+}
+
+.aboutusMobile__factory__title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom:26px;
+    margin-top:26px;
+}
+
+.aboutusMobile__factory__text{
+    margin-top:26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom:26px;
+    text-align: center;
+}
+
+.aboutusMobile__alcohol__title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom:26px;
+    margin-top:26px;
+}
+.aboutusMobile__alcohol__title img{
+    margin-top: 16px;
+}
+
+.aboutusMobile__alcohol__images img {
+    width:100%;
+}
+
+.aboutusMobile__alcohol__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    margin: 26px 0;
+}
+
+
+.aboutusMobile__gallery__title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 26px 15px;
+}
+
+.aboutusMobile__gallery__title img{
+    margin-top: 16px;
+}
+
+.aboutusMobile__gallery__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    margin: 0 15px;
+    margin-bottom:26px;
+}
+
+.aboutusMobile__gallery__images img{
+    width: 100%;
+    margin-bottom:10px;
+}

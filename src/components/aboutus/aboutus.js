@@ -35,23 +35,25 @@ export default function Aboutus(){
                     Завод расположен на юге России в селе Первомайское, Симферопольского района, Республики Крым и специализируется на переработке винограда, производстве виноградных виноматериалов, выработке коньячных, винных, виноградных дистиллятов, а также производстве, розливе и реализации различных видов алкогольной продукции: коньяков, бренди, виноградной водки и других.
                 </div>
             </div>
-            <div className='aboutus__factoryInfo'>
-                <div className='aboutus__factoryInfo__column'>
-                    <img src={factory1Png} alt='factory'/>
-                </div>
-                <div className='aboutus__factoryInfo__column'>
-                    <div className='aboutus__factoryInfo__column__title'>
-                        Наш завод является предприятием полного технологического цикла производства.<br/>
-                        <img src={dashSvg} alt='dash' />
+            <div className='aboutus__factoryInfo__imgaes'>
+                <div className='aboutus__factoryInfo'>
+                    <div className='aboutus__factoryInfo__column'>
+                        <img src={factory1Png} alt='factory'/>
                     </div>
-                    <div className='aboutus__factoryInfo__column__text'>
-                        Процесс производства продукции включает в себя: переработку винограда, получение виноматериалов, перекурку виноматериалов, получение и выдержку дистиллятов, приготовление купажей, обработку и розлив готовой продукции.
+                    <div className='aboutus__factoryInfo__column'>
+                        <div className='aboutus__factoryInfo__column__title'>
+                            Наш завод является предприятием полного технологического цикла производства.<br/>
+                            <img src={dashSvg} alt='dash' />
+                        </div>
+                        <div className='aboutus__factoryInfo__column__text'>
+                            Процесс производства продукции включает в себя: переработку винограда, получение виноматериалов, перекурку виноматериалов, получение и выдержку дистиллятов, приготовление купажей, обработку и розлив готовой продукции.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className='aboutus__factoryImages'>
-                <img src={factory2Png} alt='factory' />
-                <img src={factory3Png} alt='factory' />
+                <div className='aboutus__factoryImages'>
+                    <img src={factory2Png} alt='factory' />
+                    <img src={factory3Png} alt='factory' />
+                </div>
             </div>
             <div className='aboutus__alcoholInfo'>
                 <div className='aboutus__alcoholInfo__column'>

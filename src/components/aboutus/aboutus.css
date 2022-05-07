@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 98px 165px;
 }
 
@@ -29,6 +30,8 @@
 
 .aboutus__factoryFounded__column__map{
     margin-top:42px;
+    display:flex;
+    justify-content: center;
 }
 
 .aboutus__location{
@@ -192,4 +195,6 @@
     font-size: 24px;
     line-height: 160%;
 }
+
+
 
