@@ -110,9 +110,11 @@ a{
         padding: 0;
         padding-top: 24px;
         padding-bottom: 4px;
+        margin-top: 30px;
     }
     .footer__main__menu a{
         margin-bottom:20px;
+        
         text-align: center;
     }
     .footer__main__contacts{
@@ -122,12 +124,19 @@ a{
         align-self: center;
     }
     .contacts__block{
-        align-items: start;
         justify-content: start;
+        align-items: center;
         font-weight: 400;
         font-size: 16px;
         line-height: 146.2%;
         margin-top: 32px;
         max-width: 400px;
+    }
+    .numbers__block{
+        align-items: start;
+    }
+    .numbers__block .number{
+        display: flex;
+        align-items: center;
     }
 }

@@ -1,0 +1,68 @@
+.advantagesMobile{
+    padding-bottom: 39px;
+    padding-top: 32px;
+}
+
+.advantagesMobile__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #B89F61;
+    margin-bottom: 8px;
+}
+
+.advantagesMobile__item__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.advantagesMobile__item__title img{
+    width:50px;
+    height: 2px;
+    margin-top:12px;
+}
+
+.advantagesMobile__item__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    margin: 0 15px;
+    margin-bottom: 52px;
+}
+
+.navigationButtons{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    bottom:10px;
+    z-index: 100;
+}
+
+.prev{
+    margin-right: 100px;
+}
+
+.advantagesMobile .swiper-pagination{
+    margin-top:-20px
+}
+
+.advantagesMobile button{
+    margin-top:32px;
+}
+
+.advantagesMobile .swiper-pagination-bullet{
+    margin-left:6px;
+    margin-right: 6px;
+}
+
+.advantagesMobile__item__image img{
+    width: 100%;
+    
+}

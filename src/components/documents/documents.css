@@ -89,3 +89,31 @@
 .documents__item button img{
     margin-left:14px;
 }
+
+@media (max-width: 767px){
+    .documents{
+        display: block;
+        text-align: center;
+        padding-bottom: 31px;
+        padding-top:23px;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .documents__title{
+        padding-top:23px;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .documents__item{
+        margin-left: 20%;
+        width:60%;
+        margin-bottom:23px;
+    }
+    .documents__item__title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+    }
+}

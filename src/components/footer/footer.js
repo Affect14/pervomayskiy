@@ -58,7 +58,7 @@ export default function Footer(){
                             <div className='contacts__img'>
                                 <img src={phoneSvg} alt='phone'/>
                             </div>
-                            <div className='contacts__block'>
+                            <div className='contacts__text'>
                                  +7 978 000-25-19
                             </div>
                         </div>

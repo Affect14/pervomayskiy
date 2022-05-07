@@ -17,6 +17,7 @@ import Vacancies from './components/vacancies/vacancies'
 import Contacts from './components/contacts/contacts'
 import BestProductsMobile from './components/best-products-mobile/bestProductsMobile'
 import AboutusMobile from './components/aboutusMobile/aboutusMobile'
+import AdvantagesMobile from './components//advantages-mobile/advantagesMobile'
 
 import mainPng from './assets/preview-component/images/main.png'
 import contactsPng from './assets/preview-component/images/contacts.png'
@@ -120,14 +121,14 @@ function App() {
                                   <Preview content={Content.main}/>
                                   <About />
                                   { useSelector(state => state.isMobile) ? <BestProductsMobile/> : <BestProducts/> }
-                                  { useSelector(state => state.isMobile) ? <></> : <Advantages/>}
+                                  { useSelector(state => state.isMobile) ? <AdvantagesMobile/> : <Advantages/>}
                                   <Footer />
                                 </div>}/>
         <Route path='/about' element={<div className='aboutPage'>
                                           <Preview content={Content.about}/>
                                           {useSelector(state=> state.isMobile) ? <AboutusMobile /> : <Aboutus/> }
-                                          {/* <Partners />
-                                          <Documents /> */}
+                                          <Partners />
+                                          <Documents />
                                           <Footer />
                                         </div>}/>
         <Route path='/production' element={<div className='productionPage'>
