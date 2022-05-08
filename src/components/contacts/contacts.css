@@ -25,3 +25,37 @@
 .contactsPage__column__item img{
     margin-right: 19.5px;
 }
+
+@media(max-width:767px){
+    .contactsPage__block{
+        display: flex;
+        padding: 0 15px;
+        padding-top:32px;
+        padding-bottom: 41px;
+        flex-direction: column;
+        justify-content: center;
+    } 
+
+
+    .contactsPage__block__column:nth-child(2){
+        margin:0;
+        margin-top:13px;
+    }
+
+    .contactsPage__column__item{
+        display: flex;
+        align-items: center;
+        margin-top:27px;
+        padding-left:12px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .contactsPage__block__column img{
+    }
+    .contactsPage__block__column:nth-child(1) img{
+        width: 100%;
+        margin: auto;
+        max-width: 450px;
+    }
+}

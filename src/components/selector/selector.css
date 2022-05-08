@@ -57,3 +57,25 @@
     margin-right: 11px;
     margin-top: 1px;
 }
+
+@media (max-width: 767px) {
+    .selector__buttons{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        margin-bottom: 63px;
+    }
+    .selector__button:nth-child(3){
+        order:5;
+    }
+    .selector__items{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 0;
+    }
+    .selector__items .card{
+        margin:0;
+    }
+}

@@ -33,7 +33,7 @@ export default function MobileHeader(){
             <div className='popup' onClick={showMenu}>
                 <img src={PopupSvg} id='imgPopup' alt='popup'/>
             </div>
-            <div className='popup__menu'>
+            <div className='popup__menu' style={{display:'none'}}>
                 <div className='popup__menu__numbers'>
                     <div className='popup__menu__number'>
                         <img src={PhoneSvg} alt='number'/> +7 365 232-32-81

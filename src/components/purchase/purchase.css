@@ -41,3 +41,35 @@
 .location__item img{
     margin-right: 12px;
 }
+
+@media (max-width:767px) {
+    .purchase{
+        padding:0;
+        padding-bottom:45px;
+    }
+    .purchase__map{
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 22px;
+    }
+    .purchase__map img{
+        width: 100%;
+    }
+    .purchase__locations{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .location__item{
+       margin-left:7%;
+       font-weight: 500;
+        font-size: 15px;
+        line-height: 140%;
+    }
+    .purchase__title{
+        display: none;
+    }
+}

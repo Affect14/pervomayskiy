@@ -14,6 +14,7 @@
     border-radius: 0px 0px 0px 20px;
     background-color: #B89F61;
     z-index: 100;
+    transition: 0.3s ease;
 }
 
 .popup img{
@@ -27,7 +28,6 @@
 }
 
 .popup__menu{
-    display: none;
     flex-direction: column;
     justify-content: center;
     position: absolute;
@@ -36,10 +36,21 @@
     color: white;
     height: 100vh;
     padding: 0px 24px;
+    z-index: 99;
 }
 
-.popup__menu img {
-    fill: white;
+.popup__menu img{
+    margin-right: 10px;
+}
+
+.popup__menu__number{
+    display: flex;
+    align-items: center;
+}
+
+.popup__menu__contact{
+    display: flex;
+    align-items: center;
 }
 
 .popup__menu__numbers{

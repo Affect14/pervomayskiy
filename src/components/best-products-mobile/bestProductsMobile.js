@@ -32,7 +32,7 @@ export default function BestProductsMobile(){
                 { 
                     images.map(item =>  {
                     return (
-                    <SwiperSlide><div className='card' key={item.id}>
+                    <SwiperSlide key={item.id}><div className='card' >
                         <ProductsItem item={item} />
                     </div></SwiperSlide>
                     )

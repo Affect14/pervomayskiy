@@ -46,3 +46,60 @@
 .care__column__button img{
     margin-left: 14px;
 }
+
+@media (max-width:767px){
+    .care{
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+    .care__title{
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .care__block{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .care__column{
+        padding:0 15px;
+        padding-top:24px;
+        padding-bottom:40px;
+    }
+    .care__image{
+        width: 100%;
+    }
+    .care__image img{
+        width: 100%;
+    }
+
+    .care__column__text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        /* or 24px */
+
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .care__button{
+        width:302px;
+        height: 78px;
+        margin: auto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        padding-left:32px;
+    }
+    .care__column__button img{
+        margin-left: 14px;
+        margin-right: 32px;
+    }
+}
