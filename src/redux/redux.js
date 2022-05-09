@@ -66,7 +66,6 @@ const defaultState = {
     { id: 10, img: img11Png, imgNoScale: img11PngNoScale },
     { id: 11, img: img12Png, imgNoScale: img12PngNoScale },
   ],
-  clickId: 3,
   isMobile: false
 }
 
@@ -76,8 +75,6 @@ const defaultState = {
         return {...state, isMobile: true}
       case "SET_DESKTOP":
         return {...state, isMobile: false}
-      case "CHANGE_CLICKID":
-        return {...state, clickId: action.id}
       default: return state
     }         
   }
